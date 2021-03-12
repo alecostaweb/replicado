@@ -368,8 +368,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarFormacaoProfissional\u0028\u0029",
             "name": "listarFormacaoProfissional",
-            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\u0020ano\u0020fim\u0020e\u0020o\u0020tipo\u0020de\u0020v\u00EDnculo.",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020os\u0020v\u00EDnculos\u0020profissionais\u0020atuais\u003A\u0020nome\u0020da\u0020institui\u00E7\u00E3o,\u0020ano\u0020de\u0020inicio\u0020e\nano\u0020fim,\u0020tipo\u0020de\u0020v\u00EDnculo\u0020e\u0020outras\u0020informa\u00E7\u00F5es.",
             "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarFormacaoProfissional"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Lattes\u003A\u003AlistarRadioTV\u0028\u0029",
+            "name": "listarRadioTV",
+            "summary": "Recebe\u0020o\u0020n\u00FAmero\u0020USP\u0020e\u0020retorna\u0020array\u0020com\u0020as\u0020participa\u00E7\u00F5es\u0020em\u0020r\u00E1dio\u0020ou\u0020TV\u0020presente\u0020no\u0020curr\u00EDculo\u0020Lattes,\u0020com\u0020o\u0020t\u00EDtulo\u0020da\u0020entrevista,\nemissora\u0020e\u0020nome\u0020para\u0020cita\u00E7\u00E3o.",
+            "url": "../classes/Uspdev-Replicado-Lattes.html#method_listarRadioTV"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa",
             "name": "Pessoa",
@@ -480,6 +485,16 @@ Search.appendIndex(
             "name": "ativosVinculo",
             "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020todas\u0020as\u0020pessoas\u0020ativas\u0020por\u0020v\u00EDnculo\nSomente\u0020ATIVOS\u0020\u0028tamb\u00E9m\u0020Docente\u0020Aposentado\u0029\nSe\u0020o\u0020terceiro\u0020par\u00E2metro\u0020\u002A\u0024contar\u002A\u0020for\u0020igual\u0020a\u00201,\u0020retorna\u0020um\u0020\u002Aarray\u002A\ncom\u0020o\u0020\u00EDndice\u0020\u002Atotal\u002A\u0020que\u0020corresponde\u0020ao\u0020n\u00FAmero\u0020total\u0020de\u0020pessoas\u0020do\u0020tipo\u0020de\u0020v\u00EDnculo",
             "url": "../classes/Uspdev-Replicado-Pessoa.html#method_ativosVinculo"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AlistarServidoresSetor\u0028\u0029",
+            "name": "listarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020\u002Aarray\u002A\u0020com\u0020a\u0020lista\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020lista\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_listarServidoresSetor"
+        },                {
+            "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AcontarServidoresSetor\u0028\u0029",
+            "name": "contarServidoresSetor",
+            "summary": "M\u00E9todo\u0020para\u0020retornar\u0020o\u0020total\u0020de\u0020servidores\u0020\u0028docentes,\u0020funcion\u00E1rios\u0020e\u0020estagi\u00E1rios\u0029\u0020por\u0020setor\u0028es\u0029\nSe\u0020aposentados\u0020\u003D\u00201,\u0020conta\u0020tamb\u00E9m\u0020os\u0020docentes\u0020aposentados\u0020\u0028stiatl\u0020\u003D\u0020\u0027P\u0027\u0020AND\u0020tipvinext\u0020NOT\u0020IN\u0020\u0028\u0027Servidor\u0020Aposentado\u0027\u0029",
+            "url": "../classes/Uspdev-Replicado-Pessoa.html#method_contarServidoresSetor"
         },                {
             "fqsen": "\\Uspdev\\Replicado\\Pessoa\u003A\u003AvinculosSetores\u0028\u0029",
             "name": "vinculosSetores",
